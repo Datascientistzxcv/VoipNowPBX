@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <Navbar1 bg="info" expand="lg">
-        <Navbar1.Brand href="#home">SwitchBoard</Navbar1.Brand>
+        <Navbar1.Brand href="#home">V-Board</Navbar1.Brand>
         <Navbar1.Toggle aria-controls="basic-navbar-nav" />
         <Navbar1.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

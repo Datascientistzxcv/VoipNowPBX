@@ -8,7 +8,7 @@ import QuickDials from "../components/charts/QuickDials";
 import CallActivity from "../components/charts/CallActivity";
 import QueueMemberActivity from "../components/charts/QueueMemberActivity";
 import QueueOverview from "../components/charts/QueueOverview";
-
+import Profile from "../components/Profile";
 const Reports = () => {
   return (
     <>
@@ -33,6 +33,7 @@ const Reports = () => {
             <QueueMemberActivity />
           </Col>
         </Row>
+        {/* <!-- Button trigger modal --> */}
       </div>
     </>
   );

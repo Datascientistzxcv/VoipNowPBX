@@ -63,6 +63,7 @@ export class MapContainer extends Component {
         <Map
           google={this.props.google}
           zoom={14}
+          
           style={{
             map: {
               position: "absolute",
@@ -95,5 +96,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyBNNxgupOW0vWPOmw-IlOusWxNZoWx2VQw'),
+  apiKey: "AIzaSyCEwosgTt1dC3-ifpw2nqtMpFv-Y8ulHYQ",
 })(MapContainer);

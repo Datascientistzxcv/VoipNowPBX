@@ -8,7 +8,7 @@ import CreateExtension from "./admin/screens/createExtension/CreateExtension";
 import LoginScreen from './admin/screens/LoginScreen'
 import DashboardScreen1 from './admin/screens/DashboardScreen1'
 function App() {
-  return <DashboardScreen />;
+  return <Reports />;
 }
 
 
